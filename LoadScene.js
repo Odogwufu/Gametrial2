@@ -8,9 +8,9 @@ class LoadScene extends Phaser.Scene{
     }
     preload(){
         this.load.image("title_bg", "assets/images/title_bg.jpg");
-        this.load.image("options_button", "assets/images/options_button.png");
-        this.load.image("title_bg", "assets/images/play_button.png");
-        this.load.image("title_bg", "assets/images/logo.png");
+        this.load.image("option", "assets/images/options_button.png");
+        this.load.image("play_button", "assets/images/play_button.png");
+        this.load.image("logo", "assets/images/logo.png");
         
     }
     create(){
