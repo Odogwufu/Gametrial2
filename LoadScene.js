@@ -1,11 +1,7 @@
-import {CST} from "../CST";
-import{MenuScene} from "./MenuScene";
-import { Phaser } from "./phaser.min";
-export class LoadScene extends Phaser.Scene{
+class LoadScene extends Phaser.Scene{
     constructor(){
-        super({
-            key:CST.SCENES.LOAD
-        })
+        super("bootGame");
+        
     }
     init(){
 
@@ -18,6 +14,6 @@ export class LoadScene extends Phaser.Scene{
         
     }
     create(){
-        this.scene.start(CST.SCENES.MENU,"hello from LoadScene");
+        this.scene.start("playGame");
     }
 }
