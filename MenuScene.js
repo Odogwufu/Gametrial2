@@ -1,11 +1,6 @@
-import {CST} from "../CST";
-import { Phaser } from "./phaser.min";
-export class MenuScene extends Phaser.Scene{
+ class MenuScene extends Phaser.Scene{
     constructor(){
-        super({
-            key:CST.SCENES.MENU
-
-        })
+       super("playGame");
     }
     init(data){
         console.log(data);
