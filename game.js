@@ -1,9 +1,9 @@
 
 var config ={
-width:800,
-height:600,
+width:650,
+height:550,
 scene:[LoadScene,MenuScene,Scene1],
-pixelArt:true
+
 
 }
 
