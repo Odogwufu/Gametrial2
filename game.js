@@ -2,7 +2,7 @@
 var config ={
 width:800,
 height:600,
-scene:[LoadScene,MenuScene],
+scene:[LoadScene,MenuScene,Scene1],
 pixelArt:true
 
 }
