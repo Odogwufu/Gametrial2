@@ -21,7 +21,7 @@ turnText = document.getElementById(`playerTurn`);
     }
 }
 
-/*
+
  getSections(board) {
     var sections = new Array();
     // horizontal sections
@@ -51,8 +51,8 @@ turnText = document.getElementById(`playerTurn`);
 
     return sections; 
 }
-*/
-/*
+
+
  isWinner(board, player) {
     var sections = this.getSections(board);
     for (i = 0; i < sections.length; i++) {
@@ -95,8 +95,8 @@ turnText = document.getElementById(`playerTurn`);
 
     return score;
 }
-*/
-/*getScore(board, player) {  
+
+getScore(board, player) {  
     // Function to assign a score to a board
     var score = 0;
     var sections = this.getSections(board);
@@ -170,14 +170,15 @@ turnText = document.getElementById(`playerTurn`);
     }
 }
 // End of AI code
-*/
+
 create() {
     this.initBoard();
-    this.add.image(0,0,"bg-color").setOrigin(0);
-    this.add.sprite(325,275,'background').setOrigin(0);
+    this.add.sprite(0,0,"bg-color").setOrigin(0);
+    this.add.sprite(325,275,"background");
+    
 }
 
- update() {
+update() {
     
     var pieceColor;
     var playerValue;
@@ -249,4 +250,5 @@ create() {
 }
 
 }
+
 
